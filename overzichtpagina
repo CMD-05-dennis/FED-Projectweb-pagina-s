@@ -1,0 +1,84 @@
+# FED-Projectweb-pagina-s<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Overzichtpagina</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+   <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="overzicht.html"></a>verhalen</li>
+                    <li><a href="aanmelden.html">login</a></li>
+                </ul>
+            </nav>
+            <form method="get" action="overzicht.html">
+                <label>
+                    <input type="search" placeholder="Zoek op titel, auteur, etc…" name="q">
+                </label>
+                <button type="submit">Zoek!</button>
+            </form>
+                <form id="Filteren">
+                   <fieldset>
+                      <legend></legend>
+                      <p>
+                         <label>Filteren</label>
+                         <select id = "filter">
+                           <option value = "#">Duur (hoog - laag)</option>
+                           <option value = "#">Duur (Laag - hoog)</option>
+                         </select>
+                      </p>
+                   </fieldset>
+                </form>
+                 <form id="sorteren">
+                   <fieldset>
+                      <legend></legend>
+                      <p>
+                         <label>Sorteren</label>
+                         <select id = "sort">
+                           <option value = "#">populaire</option>
+                           <option value = "#">Nieuw (hoog - laag)</option>
+                           <option value = "#">Nieuw (Laag - hoog)</option>
+                         </select>
+                      </p>
+                   </fieldset>
+                </form>
+        </header>
+        <main>
+        <section class="content">
+           <div id="wrapper">
+            <article class="A1">
+                <header>
+                    <h2>Stoned (78)</h2>
+                    <footer>
+                    <p><time datetime="2016-09-08"> 8 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: We reden door de glooiingen van Frans Baskenland. De lucht bleef grijss… <a href="#">lees verder</a></p>
+            </article>
+
+            <article class="A2">
+                <header>
+                    <h2>De ontdekking van de matrix (1)</h2>
+                    <p><time datetime="2016-09-09"> 9 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: Ik werd wakker met koppijn. Maar dat zou ook kunnen door de fles Baskische cider die ik had gedronken… <a href="#">lees verder</a></p>
+            </article>
+                <article class="A3">
+                <header>
+                    <h2>De ontdekking van de matrix (1)</h2>
+                    <p><time datetime="2016-09-09"> 9 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: Ik werd wakker met koppijn. Maar dat zou ook kunnen door de fles Baskische cider die ik had gedronken… <a href="#">lees verder</a></p>
+            </article>
+
+        </section>
+            </div>
+        </main>
+
+</body>
+</html>
