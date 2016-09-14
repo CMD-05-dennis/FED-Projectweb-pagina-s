@@ -1,0 +1,42 @@
+# FED-Projectweb-pagina-s<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Aanmeldenpagina</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+   <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="overzicht.html"></a>Verhalen</li>
+                    <li><a href="aanmelden.html">Aanmelden</a></li>
+                </ul>
+            </nav>
+    </header>
+      <!--Where to send the form-data when the form is submitted
+          Specifies the HTTP method to use when sending form-data
+      -->
+      <main>
+            <form action="index.html" method="post">
+
+            <h2>Aanmelden</h2>
+
+            <fieldset>
+              <legend>Info</legend>
+              <label for="name">Gebruikersnaam:</label>
+              <input type="text" id="naam" name="gebruiker_naam">
+
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="gebruiker_email">
+
+              <label for="wachtwoord">Wachtwoord:</label>
+              <input type="wachtwoord" id="wachterwoord" name="gebruiker_wachtwoord">
+           </fieldset>
+               <button type="submit">aanmelden</button>
+        </form>
+    </main>
+
+</body>
+</html>
