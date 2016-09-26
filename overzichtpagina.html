@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Overzichtpagina</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="overzichtpagina.html">Verhalen</a></li>
+                    <li><a href="aanmelden.html">Login</a></li>
+                </ul>
+            </nav>
+            <form class="zoeken" method="get" action="overzicht.html">
+                <label>
+                    <input type="search" placeholder="Zoek op titel, auteur, etc…" name="q">
+                </label>
+            </form>
+
+        </header>
+                <form class="sorteren">
+                   <fieldset>
+                      <legend></legend>
+                      <p>
+                         <label>Sorteer op:</label>
+                         <select id = "sort">
+                           <option value = "#">populaire</option>
+                           <option value = "#">Nieuw (hoog - laag)</option>
+                           <option value = "#">Nieuw (Laag - hoog)</option>
+                         </select>
+                      </p>
+                   </fieldset>
+                </form>
+        <main>
+        <div class=wrapper>
+           <aside class=uitgelicht>
+            <h2>Filter:</h2>
+            <form method="get">
+                    <fieldset>
+                            <legend>Filter op Thema:</legend>
+                                    <label><input type="checkbox" name="Romantiek" value="Romantiek"/>Romantiek</label>
+                                    <label><input type="checkbox" name="Horror" value="Horror"/>Horror</label>
+                                    <label><input type="checkbox" name="Gore" value="Gore"/>Gore</label>
+                    </fieldset>
+                    <fieldset>
+                            <legend>Filter op Auteur:</legend>
+                                    <label><input type="checkbox" name="Molovich" value="Molovich"/>Molovich</label>
+                                    <label><input type="checkbox" name="Ander" value="Ander"/>Ander</label>
+                                    <label><input type="checkbox" name="Ander" value="Ander"/>Ander</label>
+                    </fieldset>
+                    <fieldset>
+                            <legend>Aantal woorden:</legend>
+                                    <input type="range" name="worden" min="0" max="1000">
+                                    <input type="submit">
+                    </fieldset>
+            </form>
+
+        </aside>
+           <section class='verhalen'>
+            <article>
+                <header>
+                    <h2>Stoned (78)</h2>
+                    <p><time datetime="2016-09-08"> 8 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: We reden door de glooiingen van Frans Baskenland. De lucht bleef grijss… <a href="#">lees verder</a></p>
+            </article>
+
+            <article>
+                <header>
+                    <h2>De ontdekking van de matrix (1)</h2>
+                    <p><time datetime="2016-09-09"> 9 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: Ik werd wakker met koppijn. Maar dat zou ook kunnen door de fles Baskische cider die ik had gedronken… <a href="#">lees verder</a></p>
+            </article>
+
+            <article>
+                <header>
+                    <h2>De ontdekking van de matrix (1)</h2>
+                    <p><time datetime="2016-09-09"> 9 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: Ik werd wakker met koppijn. Maar dat zou ook kunnen door de fles Baskische cider die ik had gedronken… <a href="#">lees verder</a></p>
+            </article>
+
+            <article>
+                <header>
+                    <h2>De ontdekking van de matrix (1)</h2>
+                    <p><time datetime="2016-09-09"> 9 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: Ik werd wakker met koppijn. Maar dat zou ook kunnen door de fles Baskische cider die ik had gedronken… <a href="#">lees verder</a></p>
+            </article>
+
+            <article>
+                <header>
+                    <h2>De ontdekking van de matrix (1)</h2>
+                    <p><time datetime="2016-09-09"> 9 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: Ik werd wakker met koppijn. Maar dat zou ook kunnen door de fles Baskische cider die ik had gedronken… <a href="#">lees verder</a></p>
+            </article>
+
+            <article>
+                <header>
+                    <h2>De ontdekking van de matrix (1)</h2>
+                    <p><time datetime="2016-09-09"> 9 september 2016</time></p>
+                    <p>Tags: <a href="#"></a></p>
+                </header>
+                <p>Info: Ik werd wakker met koppijn. Maar dat zou ook kunnen door de fles Baskische cider die ik had gedronken… <a href="#">lees verder</a></p>
+            </article>
+        </section>
+        </div>
+        </main>
+</body>
+</html>
